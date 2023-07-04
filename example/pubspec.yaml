@@ -1,0 +1,32 @@
+name: example
+description: A new Flutter project.
+version: 1.0.0+1
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.18.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  stylish_bottom_bar:
+    path: ../
+
+  cupertino_icons: ^1.0.5
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
